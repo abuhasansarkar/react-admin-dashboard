@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  background-color: $main-bg;
+  border-bottom: 2px solid #384256;
+  margin-bottom: 20px;
+
+  .logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .icons-area {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+    .notification {
+      position: relative;
+
+      span {
+        position: absolute;
+        background: red;
+        color: #fff;
+        font-weight: bold;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        top: -10px;
+        right: -10px;
+        font-size: 14px;
+      }
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      span {
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+}
