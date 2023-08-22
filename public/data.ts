@@ -319,6 +319,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
+    age: 20,
   },
   {
     id: 2,
@@ -349,6 +350,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
+    age: 50,
   },
   {
     id: 5,

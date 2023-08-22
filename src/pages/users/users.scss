@@ -1,0 +1,27 @@
+.userLists {
+  width: 100%;
+  margin: 0 20px;
+  height: auto;
+
+  .headingInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+
+    button {
+      padding: 10px 30px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

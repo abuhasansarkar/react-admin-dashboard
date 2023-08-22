@@ -1,0 +1,19 @@
+.tableData {
+  .dataGrid {
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+
+    .MuiDataGrid-toolbarContainer {
+      flex-direction: row-reverse;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
