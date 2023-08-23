@@ -59,7 +59,7 @@ const Products = () => {
         <h1> All Users </h1>
         <button onClick={() => setOpen(true)}>Add New Products</button>
       </div>
-      <TableData slug="product" columns={columns} rows={products} />
+      <TableData slug="products" columns={columns} rows={products} />
       {open && <Add columns={columns} slug="product" setOpen={setOpen} />}
     </div>
   );

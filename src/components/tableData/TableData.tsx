@@ -27,7 +27,7 @@ const TableData = (props: Props) => {
             {" "}
             <img src="../../../public/view.svg" alt="icon" />{" "}
           </Link>
-          <span onClick={deleteHendel(params.row.id)}>
+          <span onClick={() => deleteHendel(params.row.id)}>
             <img src="../../../public/delete.svg" alt="icon" />
           </span>
         </div>
